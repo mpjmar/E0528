@@ -17,7 +17,7 @@ public class App {
 		} while (!correcto);
 
 		int factorial = 1;
-		for (int i = 1; i <= numero; i++)
+		for (int i = 2; i <= numero; i++)
 			factorial *= i;
 		System.out.printf("%d! = %d%n", numero, factorial);
     }
